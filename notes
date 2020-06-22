@@ -1,0 +1,24 @@
+Database to manage todo's (mongodb)
+Authentication/Authoriztion to the todolist/db
+Export/get all todo's feature
+Dockerized?
+Text message integration - text a number to receive list of todo's (with authentication?
+
+"todo" item:
+
+Title *
+Subject-Area
+Content *
+Status *
+
+CLI features:
+-list topics
+-show all todo's (with sort-by subject area, key-word search, alphabetized by title)
+-create/read/update/delete todo items/entire subjects
+-config flag/init to set a "message of the day" feature that adds a motd to the bashrc displaying the current todo's on boot/terminal-open
+-config flag/init to set the phone number for the mobile integration?
+
+
+DB: mongodb
+CLI: rust
+API (for mobile integration?): django/python
